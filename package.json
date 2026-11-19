@@ -1,0 +1,17 @@
+{
+  "name": "amity-helpdesk-launcher",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -k -n API,WEB -c blue,green \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:server": "npm --prefix amity-helpdesk/server run dev",
+    "dev:client": "npm --prefix amity-helpdesk/client run dev -- --host 127.0.0.1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "node": "22.23.4"
+  },
+  "allowScripts": {
+    "node@22.23.4": true
+  }
+}

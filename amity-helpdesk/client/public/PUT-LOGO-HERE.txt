@@ -1,0 +1,7 @@
+Official Amity logo yahan rakho, file ka naam bilkul aisa hona chahiye:
+
+    amity-logo.png
+
+(Amity ki official website / brand page se download karo; transparent background wala PNG best rahega.)
+Logo milte hi landing page, login aur dono dashboards me automatically wahi dikhega.
+Jab tak file nahi hai, ek placeholder shield dikhta hai.
